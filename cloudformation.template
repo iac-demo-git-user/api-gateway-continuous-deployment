@@ -171,7 +171,8 @@
           "DataTraceEnabled": true,
           "HttpMethod": "*",
           "LoggingLevel": "INFO",
-          "ResourcePath": "/*"
+          "ResourcePath": "/*",
+          "MetricsEnabled":true
         }],
         "RestApiId": {"Ref": "GreetingApi"},
         "StageName": "prod",
